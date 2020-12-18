@@ -1,0 +1,25 @@
+{
+    "name": "normphp-core/encryption",
+    "description": "encryption",
+    "keywords": ["encryption","aes","signature"],
+    "homepage": "https://normphp.org/",
+    "authors": [
+        {
+            "name": "pizepei",
+            "email": "pizepei@pizepei.com"
+        }
+    ],
+    "require": {
+        "normphp/helper": "dev-master",
+        "php": ">=7.0.0"
+    },
+    "repositories": {
+    },
+    "autoload": {
+        "psr-4": {
+            "normphpCore\\encryption\\": "src/"
+        }
+
+    }
+
+}
