@@ -1,0 +1,10 @@
+{
+  "prefix": "ENCRYPTION",
+  "author": "normphp-core-encryption",
+  "explain":"normphp-core-encryption 配置",
+  "notes": "注意事项",
+  "contesExplain": {
+    "JSON_WEB_TOKEN_SECRET": "密钥 数组",
+    "JSON_WEB_TOKEN_ROLE": "对应的权限（secret  role ）"
+  }
+}
