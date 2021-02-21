@@ -1,17 +1,17 @@
 <?php
+namespace  normphpCore\encryption\config;
+
+
+use normphp\config\SystemConfig;
+
 /**
- * Created by PhpStorm.
- * User: pizepei
- * Date: 2018/12/1
- * Time: 16:02
- * JsonWebToken 配置
+ * 配置模板
+ * Class ConfigTpl
  */
-
-namespace normphpCore\encryption\config;
-
-
-class JsonWebTokenConfig
+class ConfigTpl
 {
+
+
     /**
      * 密钥 数组
      */
@@ -34,10 +34,10 @@ class JsonWebTokenConfig
                 'number'=>'',//用户编号（尽可能的对外隐藏uuid）
             ],
             'Payload'=>[//jwtPayload
-                        'iss'=>'server',//签发人
-                        'exp'=>7200,//过期时间s
-                        'sub'=>'phpServer--socketServer',//主题
-                        'aud'=>'socketServer',//受众
+                'iss'=>'server',//签发人
+                'exp'=>7200,//过期时间s
+                'sub'=>'phpServer--socketServer',//主题
+                'aud'=>'socketServer',//受众
             ],
         ],
         'base'=>['name'=>'管理员','value'=>'', 'alg'=>'md5','role'=>''],
