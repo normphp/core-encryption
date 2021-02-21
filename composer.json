@@ -10,7 +10,6 @@
         }
     ],
     "require": {
-        "normphp/helper": "dev-master",
         "php": ">=7.0.0"
     },
     "repositories": {
